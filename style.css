@@ -17,7 +17,7 @@ body {
 }
 .card{
     width: min(100% - 1em, 22rem);
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     overflow: hidden;
     background: #fff ;
     box-shadow: 2px 6px 31px 0px hsl(225,100%,94%);
@@ -56,7 +56,7 @@ body {
     gap: 1rem;
 }
 .plan img {
-    width: 1.5rem;
+    width: 2.5rem;
 }
 .plan div {
     display: flex;
@@ -70,6 +70,41 @@ body {
 plan div small{
     font-weight: 500;
     color: hsl(224, 23%, 55%) ;
+}
+.plan a{
+    font-weight: 500;
+    font-size: small;
+    margin-left: auto;
+    text-decoration: none;
+}
+button{
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+}
+.primo{
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    background: hsl(245, 75%, 52%);
+    color: hsl(25, 100%, 98%);
+    box-shadow: 2px 16px 37px -11px rgba(125, 116, 219, 0.75) ;
+}
+.primo:focus{
+    outline: 2px solid hsl(25, 100%, 98%);
+    background: hsl(245, 75%, 52%, 0.9);
+}
+.primo:hover{
+    background: hsla(246, 81%, 65%, 0.9);
+}
+.secundo{
+    color: hsl(224,22%,55%);
+    background: none;
+}
+.secundo:hover{
+    color: black;
 }
 .attribution { 
     font-size: 11px; text-align: center; 
