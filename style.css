@@ -102,6 +102,7 @@ button{
 .secundo{
     color: hsl(224,22%,55%);
     background: none;
+    font-size: 0.8rem;
 }
 .secundo:hover{
     color: black;
